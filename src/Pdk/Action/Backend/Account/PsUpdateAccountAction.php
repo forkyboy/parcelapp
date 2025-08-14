@@ -15,7 +15,10 @@ use Symfony\Component\HttpFoundation\Response;
 
 final class PsUpdateAccountAction extends UpdateAccountAction
 {
-    private ?string $mode;
+    /**
+     * @var string|null
+     */
+    private $mode;
 
     /**
      * @param  \Symfony\Component\HttpFoundation\Request $request

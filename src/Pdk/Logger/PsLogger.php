@@ -31,12 +31,12 @@ final class PsLogger extends AbstractLogger
     /**
      * @var \FileLogger[]
      */
-    private static array $loggers = [];
+    private static $loggers = [];
 
     /**
      * @var \MyParcelNL\Pdk\Base\FileSystemInterface
      */
-    private FileSystemInterface $fileSystem;
+    private $fileSystem;
 
     /**
      * @param  \MyParcelNL\Pdk\Base\FileSystemInterface $fileSystem

@@ -11,7 +11,7 @@ final class MockPsCountries extends BaseMock implements StaticMockInterface
     /**
      * @var array<int, int[]>
      */
-    private static array $zones = [];
+    private static $zones = [];
 
     /**
      * @param  int $zoneId

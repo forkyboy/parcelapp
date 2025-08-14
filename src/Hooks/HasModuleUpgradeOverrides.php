@@ -123,14 +123,37 @@ trait HasModuleUpgradeOverrides
     {
         $upgrade = &static::$modules_cache[$this->name]['upgrade'];
 
-        $upgrade['success']             ??= false;
-        $upgrade['available_upgrade']   ??= 0;
-        $upgrade['number_upgraded']     ??= 0;
-        $upgrade['number_upgrade_left'] ??= 0;
-        $upgrade['upgrade_file_left']   ??= [];
-        $upgrade['version_fail']        ??= 0;
-        $upgrade['upgraded_from']       ??= 0;
-        $upgrade['upgraded_to']         ??= 0;
+        if (! isset($upgrade['success'])) {
+            $upgrade['success'] = false;
+        }
+
+        if (! isset($upgrade['available_upgrade'])) {
+            $upgrade['available_upgrade'] = 0;
+        }
+
+        if (! isset($upgrade['number_upgraded'])) {
+            $upgrade['number_upgraded'] = 0;
+        }
+
+        if (! isset($upgrade['number_upgrade_left'])) {
+            $upgrade['number_upgrade_left'] = 0;
+        }
+
+        if (! isset($upgrade['upgrade_file_left'])) {
+            $upgrade['upgrade_file_left'] = [];
+        }
+
+        if (! isset($upgrade['version_fail'])) {
+            $upgrade['version_fail'] = 0;
+        }
+
+        if (! isset($upgrade['upgraded_from'])) {
+            $upgrade['upgraded_from'] = 0;
+        }
+
+        if (! isset($upgrade['upgraded_to'])) {
+            $upgrade['upgraded_to'] = 0;
+        }
 
         return parent::runUpgradeModule();
     }

@@ -14,7 +14,7 @@ abstract class AbstractPsModelFactory extends AbstractPsFactory
     /**
      * @var array<string, T>
      */
-    private array $cache = [];
+    private $cache = [];
 
     /**
      * @param  string $class

@@ -317,7 +317,7 @@ All notable changes to this project will be documented in this file. See
 
 ## [4.0.0-beta.1](https://github.com/myparcelnl/prestashop/compare/v1.8.1...v4.0.0-beta.1) (2023-11-30)
 
-We've rewritten the entire module from scratch, using the [MyParcel Plugin Development Kit]. This module supports PrestaShop 8 and Php 7.4 through 8.2 (and onwards). See the [pinned issue] for more information on the changes.
+We've rewritten the entire module from scratch, using the [MyParcel Plugin Development Kit]. This module supports PrestaShop 8 and Php 7.2 through 8.2 (and onwards). See the [pinned issue] for more information on the changes.
 
 ## [3.10.0](https://github.com/myparcelnl/prestashop/compare/v3.9.0...v3.10.0) (2024-01-02)
 

@@ -46,9 +46,15 @@ class MyParcelNL extends CarrierModule
     use HasPsCarrierUpdateHooks;
     use HasPsShippingCostHooks;
 
-    private static ?string $versionFromComposer = null;
+    /**
+     * @var string|null
+     */
+    private static $versionFromComposer = null;
 
-    private bool           $hasPdk              = false;
+    /**
+     * @var bool
+     */
+    private $hasPdk = false;
 
     public function __construct()
     {

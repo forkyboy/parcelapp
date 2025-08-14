@@ -125,7 +125,10 @@ final class Address extends AddressCore { }
 /** @see \CarrierCore */
 abstract class CarrierCore extends MockPsCarrier
 {
-    protected bool $hasCustomIdKey = true;
+    /**
+     * @var bool
+     */
+    protected $hasCustomIdKey = true;
 }
 
 final class Carrier extends CarrierCore { }
@@ -193,7 +196,10 @@ final class Order extends OrderCore { }
 /** @see \OrderStateCore */
 abstract class OrderStateCore extends ObjectModel
 {
-    protected bool $hasCustomIdKey = true;
+    /**
+     * @var bool
+     */
+    protected $hasCustomIdKey = true;
 }
 
 final class OrderState extends OrderStateCore { }
@@ -201,7 +207,10 @@ final class OrderState extends OrderStateCore { }
 /** @see \ProductCore */
 abstract class ProductCore extends ObjectModel
 {
-    protected bool $hasCustomIdKey = true;
+    /**
+     * @var bool
+     */
+    protected $hasCustomIdKey = true;
 }
 
 final class Product extends ProductCore { }
@@ -254,7 +263,10 @@ final class Warehouse extends WarehouseCore { }
 /** @see \ZoneCore */
 abstract class ZoneCore extends ObjectModel
 {
-    protected bool $hasCustomIdKey = true;
+    /**
+     * @var bool
+     */
+    protected $hasCustomIdKey = true;
 }
 
 /** @see \Zone */

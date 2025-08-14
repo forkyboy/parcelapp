@@ -18,7 +18,10 @@ use PrestaShop\PrestaShop\Core\Foundation\Database\EntityInterface;
  */
 abstract class MockPsObjectModel extends BaseMock implements EntityInterface
 {
-    protected bool $hasCustomIdKey = false;
+    /**
+     * @var bool
+     */
+    protected $hasCustomIdKey = false;
 
     /**
      * @param  null|int $id

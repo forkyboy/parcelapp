@@ -21,7 +21,7 @@ final class PsCountryService extends PsSpecificObjectModelService implements PsC
     /**
      * @var array<string, int|false>
      */
-    private static array $countryIdIsoCache = [];
+    private static $countryIdIsoCache = [];
 
     /**
      * @TODO: Remove this when Carrier Capabilities service is implemented.

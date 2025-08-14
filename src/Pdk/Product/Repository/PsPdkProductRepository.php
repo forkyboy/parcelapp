@@ -29,7 +29,10 @@ class PsPdkProductRepository extends AbstractPdkPdkProductRepository
     /**
      * @var \MyParcelNL\PrestaShop\Service\PsProductService
      */
-    private PsProductService $psProductService;
+    /**
+     * @var PsProductService
+     */
+    private $psProductService;
 
     /**
      * @var \MyParcelNL\PrestaShop\Repository\PsProductSettingsRepository

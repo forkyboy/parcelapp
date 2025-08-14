@@ -16,7 +16,7 @@ final class Ps8RouterService extends PsRouterService
     /**
      * @var \Symfony\Component\Routing\Router
      */
-    private Router $router;
+    private $router;
 
     /**
      * @param  \MyParcelNL\Pdk\Storage\Contract\StorageInterface $storage

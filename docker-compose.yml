@@ -1,14 +1,14 @@
 services:
-  php:
-    image: ghcr.io/myparcelnl/php-xd:7.4-alpine
+    php:
+      image: ghcr.io/myparcelnl/php-xd:7.2-alpine
     environment:
       COMPOSER_IGNORE_PLATFORM_REQ: 'ext-*,lib-*'
     volumes:
       - .:/app
     command: ['composer', 'install']
 
-  test:
-    image: ghcr.io/myparcelnl/php-xd:7.4-alpine
+    test:
+      image: ghcr.io/myparcelnl/php-xd:7.2-alpine
     volumes:
       - .:/app
     command: ['php', 'vendor/bin/pest']

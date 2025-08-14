@@ -50,7 +50,10 @@ final class PsPdkOrderRepository extends AbstractPdkOrderRepository
     /**
      * @var \MyParcelNL\PrestaShop\Service\PsProductService
      */
-    private PsProductService $psProductService;
+    /**
+     * @var PsProductService
+     */
+    private $psProductService;
 
     /**
      * @param  \MyParcelNL\Pdk\Storage\MemoryCacheStorage                       $storage
