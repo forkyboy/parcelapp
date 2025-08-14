@@ -17,7 +17,10 @@ final class PsAddressAdapter
     public const ADDRESS_TYPE_SHIPPING = 'shipping';
     public const ADDRESS_TYPE_BILLING  = 'billing';
 
-    private PsObjectModelServiceInterface $psObjectModelService;
+    /**
+     * @var PsObjectModelServiceInterface
+     */
+    private $psObjectModelService;
 
     /**
      * @param  \MyParcelNL\PrestaShop\Contract\PsObjectModelServiceInterface $psObjectModelService

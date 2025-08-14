@@ -1,6 +1,6 @@
 ## 🚧 This version is not ready for production use 🚧
 
-This is the latest beta release of MyParcel PrestaShop v4.x. We've rewritten the entire module from scratch, using the [MyParcel Plugin Development Kit]. This module supports PrestaShop 8 and Php 7.4 through 8.2 (and onwards). See the [pinned issue] for more information on the changes.
+This is the latest beta release of MyParcel PrestaShop v4.x. We've rewritten the entire module from scratch, using the [MyParcel Plugin Development Kit]. This module supports PrestaShop 8 and Php 7.2 through 8.2 (and onwards). See the [pinned issue] for more information on the changes.
 
 For a less bug-prone experience, we recommend you use the stable or release candidate versions of the module instead. You can find the stable and release candidates in the [releases] section of this repository. The release candidates are versioned with a `-rc` suffix.
 

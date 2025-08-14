@@ -11,7 +11,7 @@ abstract class SqlBuilder implements SqlBuilderInterface
     /**
      * @var string
      */
-    private string $table;
+    private $table;
 
     /**
      * @param  string $table

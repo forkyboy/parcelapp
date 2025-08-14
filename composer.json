@@ -4,11 +4,11 @@
   "license": "MIT",
   "type": "prestashop-module",
   "require": {
-    "myparcelnl/pdk": "^2.53.1",
-    "php": ">=7.4.0"
+      "myparcelnl/pdk": "^2.53.1",
+      "php": ">=7.2.0"
   },
   "platform": {
-    "php": "7.4"
+      "php": "7.2"
   },
   "require-dev": {
     "guzzlehttp/guzzle": "^7.4",

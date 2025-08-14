@@ -30,15 +30,30 @@ final class CarrierBuilder
      */
     private const RANGE_CLASSES = [RangePrice::class, RangeWeight::class];
 
-    private PsCarrierMappingRepository    $carrierMappingRepository;
+    /**
+     * @var PsCarrierMappingRepository
+     */
+    private $carrierMappingRepository;
 
-    private Carrier                       $myParcelCarrier;
+    /**
+     * @var Carrier
+     */
+    private $myParcelCarrier;
 
-    private PsCarrier                     $psCarrier;
+    /**
+     * @var PsCarrier
+     */
+    private $psCarrier;
 
-    private PsCarrierServiceInterface     $psCarrierService;
+    /**
+     * @var PsCarrierServiceInterface
+     */
+    private $psCarrierService;
 
-    private PsObjectModelServiceInterface $psObjectModelService;
+    /**
+     * @var PsObjectModelServiceInterface
+     */
+    private $psObjectModelService;
 
     /**
      * @param  \MyParcelNL\Pdk\Carrier\Model\Carrier $myParcelCarrier

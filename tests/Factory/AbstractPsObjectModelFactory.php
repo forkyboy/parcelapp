@@ -27,12 +27,12 @@ abstract class AbstractPsObjectModelFactory extends AbstractPsModelFactory imple
     /**
      * @var PsObjectModelFactoryInterface[]
      */
-    private array $additionalModelsToStore = [];
+    private $additionalModelsToStore = [];
 
     /**
-     * @var null|int
+     * @var int|null
      */
-    private ?int $id;
+    private $id;
 
     /**
      * @param  null|int $id

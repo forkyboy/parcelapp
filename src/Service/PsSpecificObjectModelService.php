@@ -16,7 +16,10 @@ use ObjectModel;
  */
 abstract class PsSpecificObjectModelService implements PsSpecificObjectModelServiceInterface
 {
-    private PsObjectModelServiceInterface $psObjectModelService;
+    /**
+     * @var PsObjectModelServiceInterface
+     */
+    private $psObjectModelService;
 
     /**
      * @param  \MyParcelNL\PrestaShop\Contract\PsObjectModelServiceInterface $psObjectModelService
