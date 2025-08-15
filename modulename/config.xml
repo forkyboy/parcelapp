@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>modulename</name>
+  <displayName>Module Display Name</displayName>
+  <version>1.0.0</version>
+  <author>Your Name</author>
+  <tab>administration</tab>
+  <need_instance>0</need_instance>
+  <description>Module description</description>
+  <confirmUninstall>Are you sure you want to uninstall?</confirmUninstall>
+</module>
